@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { matchData, deliveriesData } = require("./ipl.js")
+const { matchData} = require("./ipl.js")
 
 //Problem2: Number of matches won per team per year in IPL.
 const findNumberOfMatchesPlayedPerYear = matchData.reduce((result, currentValue) => {
